@@ -133,7 +133,7 @@ button {
   animation: strelka 0.5s infinite alternate ease-in-out ;
 }
 
-.theme-menu__button:focus-visible{
+.theme-menu__button:focus-visible {
   opacity: 0.6;
   border-bottom: 2px solid var(--themes-main-color);
 }
@@ -247,7 +247,7 @@ button {
 }
 
 .hue-rotate-contrast {
-  filter: hue-rotate(90deg) contrast(0.5) ; 
+  filter: hue-rotate(90deg) contrast(0.5); 
 } 
 
 .hue-contrast-brightness {

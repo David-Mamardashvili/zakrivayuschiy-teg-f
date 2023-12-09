@@ -25,7 +25,7 @@
       --gradient-color2: #007f0c;
       --gradient-color3: #004306;
       --blend-content-color: var(--themes-main-color);
-    } 
+  } 
 }  
 :root.theme-light {
     --themes-background: #fff;

@@ -285,7 +285,7 @@ button {
 } 
 
 .hue-contrast-brightness {
-  filter: contrast(4) brightness(8);
+  filter: saturate(400%);
 }
 
 .footer {

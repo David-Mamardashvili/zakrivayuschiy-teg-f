@@ -347,7 +347,7 @@ button {
 .dialog__title {
   display: flex;
   gap:20px;
-  margin-left: 32px;
+  margin-left: 25px;
 }
 
 .dialog__text {
@@ -415,7 +415,16 @@ button {
     padding-bottom: 24px;
   }
   .dialog[open] {
-    max-width: 357px;
+    min-width: 353px;
+  }
+  .dialog__title {
+    margin-left: 14px;
+  }
+  .dialog__button {
+    min-width: 293px;
+  }
+  .dialog__icon {
+    margin-top: 10px;
   }
 }
 

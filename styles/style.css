@@ -323,6 +323,10 @@ button {
   outline:none;
 }
 
+.footer-button:focus-visible {
+  box-shadow: 2px 2px 0px 0px #000;
+}
+
 .dialog[open] {
   position: fixed;
   display: flex;
@@ -370,7 +374,7 @@ button {
 }
 
 .dialog__button {
-  border: 1px solid var(--themes-main-color);
+  border: 2px solid var(--themes-main-color);
   min-height: 38px;
   min-width: 257px;
   padding: 9px 17px;
@@ -378,10 +382,6 @@ button {
 
 .dialog__button:focus {
   outline: none;
-}
-
-.OK__button {
-  color: var(--themes-main-color);
 }
 
 @media(min-width: 576px) {

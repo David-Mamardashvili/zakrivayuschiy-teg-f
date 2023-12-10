@@ -43,6 +43,14 @@
   fill: var(--themes-accent-color);
 }
 
+.card__icon-button:hover .like-icon.is-liked  .core {
+  fill: red;
+}
+
+.card__icon-button:hover .like-icon.is-liked .main-body {
+  fill: red;
+}
+
 .like-icon .heart {
   transform-origin: center;
 }

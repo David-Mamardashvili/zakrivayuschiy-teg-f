@@ -97,3 +97,12 @@
     fill-opacity: 1;
   }
 }
+
+@keyframes border {
+  0% {
+    border-bottom: none
+  }
+  100% {
+    border-bottom: 2px solid var(--themes-main-color);
+  }
+}

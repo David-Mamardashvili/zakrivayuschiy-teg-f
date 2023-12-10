@@ -177,10 +177,6 @@ button {
   font-variation-settings: "wght" var(--wght-bold);
 }
 
-.card-text {
-  font-size: 18px;
-}
-
 .card {
   display: flex;
   flex-direction: column;
@@ -190,12 +186,13 @@ button {
 
 .card-text {
   line-height: 21px;
+  font-size: 18px;
 }
 
 .card-button-section {
   display: flex;
   justify-content: flex-end;
-  gap: 12px;
+  gap: 4px;
 }
 
 .card__like-button {
@@ -396,8 +393,17 @@ button {
 }
 
 @media (min-width: 768px) {
+  .header__title {
+    margin-top: 136px;
+  }
+  .theme-menu__list {
+    margin-left: 315px;
+  }
   .card-menu__list {
-    gap: 54px;
+    gap: 51px;
+  }
+  .card__title {
+    max-height: 30px;
   }
   .card__label {
     right: 25px;

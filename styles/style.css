@@ -260,8 +260,8 @@ button {
   }
 }
 
-.saturate {
-  filter: saturate(0.3);
+.grayscale {
+  filter: grayscale(75%);
 }
 
 .hue-rotate {
@@ -284,7 +284,7 @@ button {
   filter: hue-rotate(90deg) contrast(0.5); 
 } 
 
-.hue-contrast-brightness {
+.saturate2 {
   filter: saturate(400%);
 }
 

@@ -27,13 +27,6 @@
   transition-delay: 0.05s;
 }
 
-.card__icon-button:hover .like-icon .core {
-  fill: var(--themes-main-color);
-}
-
-.card__icon-button:hover .like-icon .main-body {
-  fill: var(--themes-main-color);
-}
 
 .card__icon-button:active .like-icon .core {
   fill: var(--themes-accent-color);
@@ -43,12 +36,12 @@
   fill: var(--themes-accent-color);
 }
 
-.card__icon-button:hover .like-icon.is-liked  .core {
-  fill: red;
+.card__icon-button:hover .like-icon:not(.is-liked) .main-body {
+  fill: var(--themes-accent-color);
 }
 
-.card__icon-button:hover .like-icon.is-liked .main-body {
-  fill: red;
+.card__icon-button:hover .like-icon:not(.is-liked) .core{
+  fill: var(--themes-accent-color);
 }
 
 .like-icon .heart {

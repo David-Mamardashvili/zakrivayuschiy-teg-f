@@ -13,7 +13,7 @@
     --gradient-color2: #007f0c;
     --gradient-color3: #004306; 
     --blend-content-color: var(--themes-main-color);
-  }
+  } 
   
   @media (prefers-color-scheme: dark) {
     :root {

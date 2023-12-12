@@ -97,10 +97,14 @@ button {
 .theme-menu__list {
   display: flex;
   flex-direction: column;
+  align-self: center;
   gap: 8px;
   margin-top: 25px;
   margin-bottom: 25px;
-  margin-left: 154px;
+}
+
+.theme-menu__item {
+  padding-left: 20px;
 }
 
 .theme-menu__button {
@@ -183,8 +187,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 27px;
-  padding: 25px;
-  padding-bottom: 22px;
+  padding: 25px 25px 24px 25px;
 }
 
 .card-text {
@@ -211,11 +214,20 @@ button {
 }
 
 .card__like-button:focus-visible {
-  box-shadow: 2px 2px 0px 0px #000;
+  box-shadow: 2px 2px 0px 0px var(--themes-main-color);
+}
+
+.card__icon-button {
+  max-block-size: 38px;
 }
 
 .card__icon-button:focus {
   outline:none;
+}
+
+.card__icon-button:focus-visible {
+  border: 2px solid var(--themes-main-color);
+  transition: border 0.3s ease;
 }
 
 .button__text {
@@ -324,7 +336,7 @@ button {
 }
 
 .footer-button:focus-visible {
-  box-shadow: 2px 2px 0px 0px #000;
+  box-shadow: 2px 2px 0px 0px var(--themes-main-color);
 }
 
 .dialog[open] {
@@ -384,6 +396,10 @@ button {
   outline: none;
 }
 
+.dialog__button:focus-visible {
+  box-shadow: 2px 2px 0px 0px var(--themes-main-color);
+}
+
 @media(min-width: 576px) {
   .footer-button {
     flex-wrap: nowrap;
@@ -399,9 +415,6 @@ button {
   .header__title {
     margin-top: 136px;
   }
-  .theme-menu__list {
-    margin-left: 315px;
-  }
   .card-menu__list {
     gap: 51px;
   }
@@ -412,7 +425,7 @@ button {
     right: 25px;
   }
   .card {
-    padding-bottom: 24px;
+    padding-bottom: 26px;
   }
   .dialog[open] {
     min-width: 353px;

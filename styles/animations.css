@@ -37,11 +37,11 @@
 }
 
 .card__icon-button:hover .like-icon:not(.is-liked) .main-body {
-  fill: var(--themes-accent-color);
+  fill: var(--themes-main-color);
 }
 
 .card__icon-button:hover .like-icon:not(.is-liked) .core{
-  fill: var(--themes-accent-color);
+  fill: var(--themes-main-color);
 }
 
 .like-icon .heart {
